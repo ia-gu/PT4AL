@@ -1,0 +1,17 @@
+name: semi/optim
+rot_optimizer:
+  name: SGD
+  lr: 0.05
+  momentum: 0.9
+  weight_decay: 0.0
+optimizer:
+  name: SGD
+  lr: 0.01
+  momentum: 0.9
+  weight_decay: 0.0005
+num_workers: 8
+pin_memory: true
+epochs: 200
+rot_batch_size: 256
+batch_size: 20
+seed: 9999
